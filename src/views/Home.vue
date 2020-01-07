@@ -60,6 +60,10 @@
           <div class="d-flex justify-content-center align-item-center hire-me">
               <button class="btn btn-md">Hire me</button>
             </div>
+
+            <section class="portfolio-section">
+              <tab-component></tab-component>
+            </section>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 purple-section">
           my contetnt
@@ -70,7 +74,12 @@
 </template>
 
 <script>
+import TabComponent from '@/components/TabComponent'
+
 export default {
+  components: {
+    TabComponent
+  }
   
 }
 </script>

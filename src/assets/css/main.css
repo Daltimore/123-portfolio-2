@@ -1,7 +1,8 @@
-#first-theme {
-  margin: 0 auto;
+@import url('https://fonts.googleapis.com/css?family=Actor&display=swap');
+
+body{
+  font-family: 'Actor', sans-serif;
   height: 100vh;
-  overflow: auto;
 }
 
 #first-theme .avatar-section {
@@ -104,6 +105,10 @@
   border-radius: 10px;
   background: #4D75E8;
   color: rgba(255, 255, 255, 0.5)
+}
+
+#first-theme .portfolio-section {
+  margin-top: 4rem;
 }
 
 #first-theme .purple-section {
