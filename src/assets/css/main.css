@@ -1,0 +1,111 @@
+#first-theme {
+  margin: 0 auto;
+  height: 100vh;
+  overflow: auto;
+}
+
+#first-theme .avatar-section {
+  padding: 2rem;
+}
+
+#first-theme .avatar-section .avatar img {
+  width: 7.5rem;
+}
+
+#first-theme .user-details {
+  color: #707070;
+}
+
+#first-theme .user-details .rate{
+  color: #4D75E8
+}
+
+#first-theme .user-details .rate span{
+  font-weight: 600;
+}
+
+#first-theme .user-details .rate p{
+  color: rgba(77, 117, 232, 0.5)
+}
+
+#first-theme .audio-section {
+  padding-left: 0.4rem;
+  padding-top: 2rem;
+}
+
+#first-theme .audio-section .interv__container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+#first-theme .audio-section .interv {
+  display: flex;
+  flex-direction: column;
+  margin-left: -3rem;
+  margin-top: 12px;
+}
+
+#first-theme .audio-section .interv span {
+  background: #4D75E8;
+  padding: 0.4rem 0.7rem;
+  color: #ffffff;
+  border-radius: 5px;
+  width: 48%;
+}
+
+#first-theme .audio-section .interv span:first-child {
+  margin-top: -1rem;
+  margin-bottom: 4px;
+}
+
+#first-theme .audio-section p {
+  transform: rotate(270deg);
+  position: relative;
+  margin-top: -13px;
+  color: #707070;
+  font-weight: 100;
+  font-size: 0.9rem;
+}
+
+#first-theme .tap-section {
+  padding: 0.3rem 1.8rem;
+}
+
+#first-theme .tap-section button {
+  border: 1px solid #4D75E8;
+  padding: 0.4rem 1.5rem;
+  color: rgba(77, 117, 232, 0.5)
+}
+
+#first-theme .tap-section button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+#first-theme .tap-section .icon-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#first-theme .tap-section .icon-container div {
+  padding: 2px 8px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 5px 15px 0 rgba(0,0,0,0.10);
+  color: #4D75E8;
+}
+
+#first-theme .hire-me button {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+  border-radius: 10px;
+  background: #4D75E8;
+  color: rgba(255, 255, 255, 0.5)
+}
+
+#first-theme .purple-section {
+  background: #4D75E8;
+}
