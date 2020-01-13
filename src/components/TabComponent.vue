@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div id="social-tabs">
     <vue-tabs>
       <v-tab title="Programming Languages">
         <div class="d-flex justify-content-between align-items-center">
@@ -9,7 +9,7 @@
           <div class="ps">
             <span>Ps</span>
           </div>
-          <i class="fab fa-sketch fa-2x"></i>
+          <i class="fab fa-sketch fa-2x diamond"></i>
           <div class="ui">
           <span>Ui</span>
         </div>
@@ -42,7 +42,7 @@ export default {
 </script>
 
 <style>
-.vue-tabs .nav > li span.title {
+#social-tabs .vue-tabs .nav > li span.title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -52,7 +52,7 @@ export default {
   font-size: 12px !important;
 }
 
-.vue-tabs .nav-tabs > li.active > a, .vue-tabs .nav-tabs > li.active > a:hover, .vue-tabs .nav-tabs > li.active > a:focus {
+#social-tabs .vue-tabs .nav-tabs > li.active > a, .vue-tabs .nav-tabs > li.active > a:hover, .vue-tabs .nav-tabs > li.active > a:focus {
   color: #555555;
   background-color: #fff;
   border-bottom: 2px solid #4D75E8 !important; 
@@ -60,7 +60,7 @@ export default {
   cursor: default;
 }
 
-.vue-tabs .nav {
+#social-tabs .vue-tabs .nav {
   margin-bottom: 0;
   margin-top: 0;
   padding-left: 40px;
@@ -68,11 +68,13 @@ export default {
   width: 87%;
 }
 
-.tab-content {
-  padding: 2rem 4rem;
+#social-tabs .tab-content {
+  padding-top: 3rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
 }
 
-.ai {
+#social-tabs .ai {
   width: 2rem;
   height: 2rem;
   padding: 0.5rem;
@@ -83,7 +85,7 @@ export default {
   color: #DF871E;
 }
 
-.ps {
+#social-tabs .ps {
   width: 2rem;
   height: 2rem;
   padding: 0.5rem;
@@ -94,7 +96,11 @@ export default {
   color: #76C8DA;
 }
 
-.ui {
+#social-tabs .diamond {
+  color: #FFCA28;
+}
+
+#social-tabs .ui {
   background: #4D75E8;
   width: 2rem;
   height: 2rem;
@@ -105,7 +111,7 @@ export default {
   color: #ffffff;
 }
 
-.ux {
+#social-tabs .ux {
   background: #4D75E8;
   width: 2rem;
   height: 2rem;

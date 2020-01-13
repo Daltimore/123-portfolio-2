@@ -17,7 +17,7 @@ body{
 }
 
 #first-theme .avatar-section .avatar img {
-  width: 7.5rem;
+  width: 8rem;
 }
 
 #first-theme .user-details {
@@ -58,7 +58,11 @@ body{
   padding: 0.4rem 0.7rem;
   color: #ffffff;
   border-radius: 5px;
-  width: 48%;
+  width: 53%;
+}
+
+#first-theme .audio-section .interv img {
+  width: 23px;
 }
 
 #first-theme .audio-section .interv span:first-child {
@@ -76,12 +80,13 @@ body{
 }
 
 #first-theme .tap-section {
-  padding: 0.3rem 1.8rem;
+  padding-left: 3rem;
+  padding-right: 4rem;
 }
 
 #first-theme .tap-section button {
   border: 1px solid #4D75E8;
-  padding: 0.4rem 1.5rem;
+  padding: 0.4rem 1rem;
   color: rgba(77, 117, 232, 0.5)
 }
 
@@ -105,7 +110,7 @@ body{
 }
 
 #first-theme .hire-me button {
-  width: 30%;
+  width: 25%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 3rem;
@@ -142,8 +147,13 @@ body{
 #first-theme .purple-section .tab__section {
   display: flex;
   justify-content: space-around;
-  padding: 0rem 5rem;
+  padding: 0rem 1rem;
+}
 
+#first-theme .purple-section .tab__section .move-left,
+#first-theme .purple-section .tab__section .move-right
+ {
+  cursor: pointer;
 }
 
 #first-theme .purple-section .work__section h5{
@@ -172,12 +182,11 @@ body{
 #first-theme .purple-section .work__section .img-section {
   display: grid;
   margin-top: 3rem;
-  grid-gap: 9rem;
+  grid-gap: 10.66rem;
 }
 
 #first-theme .purple-section .work__section .img-section img {
-  width: 32rem;
-  margin-left: -4rem;
+  width: 31rem;
 }
 
 
@@ -190,20 +199,11 @@ body{
 }
 
 #first-theme .purple-section .work-details__head .work-content{
-  display: flex;
-}
-
-#first-theme .purple-section .work-details__head .work-content .list{
-  margin-right: -4rem;
-  margin-left: -8rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
 }
 
 #first-theme .sub-heading {
   color: rgb(255, 255, 255) !important;
   opacity: 2;
-}
-
-#first-theme .purple-section .work-details__head .work-content .list-2{
-  margin-right: -4rem;
-  margin-left: -8rem;
 }

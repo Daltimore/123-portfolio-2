@@ -26,8 +26,12 @@
                 <div class="interv__container">
                   <p>interviews</p>
                   <div class="interv">
-                    <span><i class="fas fa-volume-up"></i></span>
-                    <span><i class="fas fa-volume-up"></i></span>
+                    <span>
+                      <img src="@/assets/img/sound.svg" alt="">
+                    </span>
+                    <span>
+                      <img src="@/assets/img/video-player.svg" alt="">
+                    </span>
                   </div>
                 </div>
               </div>
@@ -73,6 +77,9 @@
             <section class="work__section">
               <div id="tabs" class="tab__section">
                 <div>
+                  <img src="@/assets/img/left-arrow.svg" alt="" class="pr-3 move-left">
+                </div>
+                <div>
                   <a 
                     id="first-tab"
                     :class="{ active: isActive('portfolio') }"
@@ -80,7 +87,7 @@
                     role="tab"
                     aria-controls="first"
                     aria-selected="true"
-                    @click.prevent="setActive('portfolio')">
+                    @click.prevent="setActive('portfolio', 0)">
                     
                     <h5 :class="{ active: isActive('portfolio') }">Portfolio</h5>
                   </a>
@@ -92,7 +99,7 @@
                   role="tab"
                   aria-controls="second"
                   aria-selected="true"
-                  @click.prevent="setActive('work')">
+                  @click.prevent="setActive('work', 1)">
 
                   <h5 :class="{ active: isActive('work') }">Work</h5>
                 </a>
@@ -104,10 +111,13 @@
                   role="tab"
                   aria-controls="third"
                   aria-selected="true"
-                  @click.prevent="setActive('education')">
+                  @click.prevent="setActive('education', 2)">
 
                   <h5 :class="{ active: isActive('education') }">Education</h5>
                 </a>
+              </div>
+              <div @click="moveRight">
+                <img src="@/assets/img/right-arrow.svg" alt="" class="pr-3 move-right">
               </div>
               </div>
 
@@ -139,11 +149,11 @@
                   <div class="work-details">
                     <div class="work-details__head">
                       <div class="work-content">
-                        <div class="w-100">
+                        <div class="pl-4">
                           <h6>Graphic&amp;<br />Web Designer</h6>
                           <p class="pt-5">2018 - 2019</p>
                         </div>
-                      <div class="w-100 list">
+                      <div class="">
                           <h6 class="sub-heading">Company "React"</h6>
                           <ul class="list-unstyled">
                             <li>
@@ -167,11 +177,11 @@
                     </div>
                      <div class="work-details__head">
                       <div class="work-content">
-                        <div class="w-100">
+                        <div class="pl-4">
                           <h6>Graphic&amp;<br />Web Designer</h6>
                           <p class="pt-5">2018 - 2019</p>
                         </div>
-                      <div class="w-100 list">
+                      <div>
                           <h6 class="sub-heading">Company "React"</h6>
                           <ul class="list-unstyled">
                             <li>
@@ -195,11 +205,11 @@
                     </div>
                     <div class="work-details__head">
                       <div class="work-content">
-                        <div class="w-100">
+                        <div class="pl-4">
                           <h6>Graphic&amp;<br />Web Designer</h6>
                           <p class="pt-5">2018 - 2019</p>
                         </div>
-                      <div class="w-100 list">
+                      <div>
                           <h6 class="sub-heading">Company "React"</h6>
                           <ul class="list-unstyled">
                             <li>
@@ -276,17 +286,33 @@ export default {
   },
   data() {
     return {
-      activeItem: 'portfolio'
+      activeItem: 'portfolio',
+      currentLink: null,
+      current: null
     }
   },
   methods: {
     isActive (menuItem) {
       return this.activeItem === menuItem;
     },
-    setActive (menuItem) {
+    setActive (menuItem, y) {
+      // eslint-disable-next-line no-console
+      console.log(y)
       this.activeItem = menuItem;
+      this.currentLink = y
     },
-  } 
+    moveRight() {
+      const xArray = ['porfolio', 'work', 'education']
+      this.current = 0
+      if (this.currentLink != null) {
+        this.current = this.currentLink
+      }
+      this.setActive(xArray[this.current])
+      this.current ++
+        // eslint-disable-next-line no-console
+        console.log(this.current)
+    }
+  }
 }
 </script>
 
