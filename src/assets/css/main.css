@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Actor&display=swap');
 
 @font-face {
-  font-family: 'Gotha Pro Reg';
+  font-family: 'Gotham Pro';
+  src: url('../fonts/GothamPro.woff') format('woff');
+  font-weight: 100;
   font-style: normal;
-  font-weight: normal;
-  src: url('../fonts/GothaProReg.otf') format('otf');
-}
+ }
+
 
 body{
-  font-family: 'Actor' !important;
+  font-family: 'Gotham Pro' !important;
   height: 100vh;
 }
 
@@ -17,15 +17,20 @@ body{
 }
 
 #first-theme .avatar-section .avatar img {
-  width: 8rem;
+  width: 8.625rem;
 }
 
 #first-theme .user-details {
   color: #707070;
+  padding-top: 0.913rem;
 }
 
 #first-theme .user-details .rate{
   color: #4D75E8
+}
+
+#first-theme .user-details .rate:first-child{
+  padding-right: 20px;
 }
 
 #first-theme .user-details .rate span{
@@ -37,8 +42,7 @@ body{
 }
 
 #first-theme .audio-section {
-  padding-left: 0.4rem;
-  padding-top: 2rem;
+  position: relative;
 }
 
 #first-theme .audio-section .interv__container {
@@ -46,37 +50,28 @@ body{
   grid-template-columns: auto auto;
 }
 
-#first-theme .audio-section .interv {
-  display: flex;
-  flex-direction: column;
-  margin-left: -3rem;
-  margin-top: 12px;
-}
 
 #first-theme .audio-section .interv span {
   background: #4D75E8;
-  padding: 0.4rem 0.7rem;
   color: #ffffff;
+  padding: 0.5rem;
+  margin-bottom: 0.4rem;
   border-radius: 5px;
-  width: 53%;
+  display: flex;
+  flex-direction: column;
+  width: 44px;
 }
 
 #first-theme .audio-section .interv img {
   width: 23px;
 }
 
-#first-theme .audio-section .interv span:first-child {
-  margin-top: -1rem;
-  margin-bottom: 4px;
-}
 
 #first-theme .audio-section p {
-  transform: rotate(270deg);
-  position: relative;
-  margin-top: -13px;
+  font-size: 14px;
+  line-height: 13px;
   color: #707070;
-  font-weight: 100;
-  font-size: 0.9rem;
+  transform: rotate(-90deg);
 }
 
 #first-theme .tap-section {

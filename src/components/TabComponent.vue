@@ -65,7 +65,7 @@ export default {
   margin-top: 0;
   padding-left: 40px;
   list-style: none;
-  width: 87%;
+  width: 95%;
 }
 
 #social-tabs .tab-content {

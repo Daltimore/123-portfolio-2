@@ -2,13 +2,13 @@
   <main id="first-theme">
     <div class="row">
       <div class="col-lg-12 col-md-12 d-flex justify-space-between m-0 p-0">
-        <div class="col-lg-6 col-md-6 col-sm-12">
+        <div class="col-lg-6 col-md-6 col-sm-12 p-3">
           <div class="avatar-section">
-            <div class="row">
-              <div class="col-lg-3 avatar">
+            <div class="row d-flex justify-content-between">
+              <div class="avatar">
                 <img src="@/assets/img/avatar.png" alt="">
               </div>
-              <div class="col-lg-6 user-details">
+              <div class="user-details">
                 <h4>Conor</h4>
                 <p>Ui/Ux designer</p>
                 <div class="d-flex justify-content-between">
@@ -22,7 +22,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-3 audio-section">
+              <div class="audio-section">
                 <div class="interv__container">
                   <p>interviews</p>
                   <div class="interv">
