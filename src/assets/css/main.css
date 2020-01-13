@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Actor&display=swap');
 
+@font-face {
+  font-family: 'Gotha Pro Reg';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/GothaProReg.otf') format('otf');
+}
+
 body{
-  font-family: 'Actor', sans-serif;
+  font-family: 'Actor' !important;
   height: 100vh;
 }
 
@@ -113,4 +120,90 @@ body{
 
 #first-theme .purple-section {
   background: #4D75E8;
+  display: flex;
+  justify-content: space-between;
+}
+
+#first-theme .purple-section .straight-line {
+  background: rgba(255, 255, 255, 0.35);
+  opacity: 0.39;
+  height: 84vh;
+  width: 1px;
+  margin-top: 8.3rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#first-theme .purple-section .work__section {
+  padding-top: 4rem;
+  
+}
+
+#first-theme .purple-section .tab__section {
+  display: flex;
+  justify-content: space-around;
+  padding: 0rem 5rem;
+
+}
+
+#first-theme .purple-section .work__section h5{
+  color: #ffffff;
+  opacity: 0.43;
+  cursor: pointer;
+}
+
+#first-theme .purple-section .work__section a .active{
+  color: #ffffff;
+  opacity: 1;
+  position: relative;
+}
+
+#first-theme .purple-section .work__section a .active::before{
+  background: #ffffff;
+  font-family: "Font Awesome 5 Free";
+  content: "\f111";
+  border-radius: 100%;
+  font-size: 6px;
+  position: absolute;
+  bottom: -9px;
+  left: 30px;
+}
+
+#first-theme .purple-section .work__section .img-section {
+  display: grid;
+  margin-top: 3rem;
+  grid-gap: 9rem;
+}
+
+#first-theme .purple-section .work__section .img-section img {
+  width: 32rem;
+  margin-left: -4rem;
+}
+
+
+#first-theme .purple-section .work-details__head {
+  color: #ffffff;
+  font-size: 14px;
+  margin-top: 4rem;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+#first-theme .purple-section .work-details__head .work-content{
+  display: flex;
+}
+
+#first-theme .purple-section .work-details__head .work-content .list{
+  margin-right: -4rem;
+  margin-left: -8rem;
+}
+
+#first-theme .sub-heading {
+  color: rgb(255, 255, 255) !important;
+  opacity: 2;
+}
+
+#first-theme .purple-section .work-details__head .work-content .list-2{
+  margin-right: -4rem;
+  margin-left: -8rem;
 }

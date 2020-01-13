@@ -1,7 +1,7 @@
 <template>
   <main id="first-theme">
     <div class="row">
-      <div class="col-lg-12 col-md-12 d-flex">
+      <div class="col-lg-12 col-md-12 d-flex justify-space-between m-0 p-0">
         <div class="col-lg-6 col-md-6 col-sm-12">
           <div class="avatar-section">
             <div class="row">
@@ -66,7 +66,201 @@
             </section>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 purple-section">
-          my contetnt
+          <div class="col-lg-1 line">
+            <div class="straight-line"></div>
+          </div>
+          <div class="col-lg-11">
+            <section class="work__section">
+              <div id="tabs" class="tab__section">
+                <div>
+                  <a 
+                    id="first-tab"
+                    :class="{ active: isActive('portfolio') }"
+                    data-toggle="tab"
+                    role="tab"
+                    aria-controls="first"
+                    aria-selected="true"
+                    @click.prevent="setActive('portfolio')">
+                    
+                    <h5 :class="{ active: isActive('portfolio') }">Portfolio</h5>
+                  </a>
+              </div>
+              <div>
+                <a 
+                  id="second-tab"
+                  data-toggle="tab"
+                  role="tab"
+                  aria-controls="second"
+                  aria-selected="true"
+                  @click.prevent="setActive('work')">
+
+                  <h5 :class="{ active: isActive('work') }">Work</h5>
+                </a>
+              </div>
+              <div>
+                <a 
+                  id="third-tab"
+                  data-toggle="tab"
+                  role="tab"
+                  aria-controls="third"
+                  aria-selected="true"
+                  @click.prevent="setActive('education')">
+
+                  <h5 :class="{ active: isActive('education') }">Education</h5>
+                </a>
+              </div>
+              </div>
+
+              <div id="myTabContent" class="tab-content">
+                <div
+                  id="portfolio"
+                  class="tab-pane"
+                  role="tabpanel"
+                  aria-labelledby="first-tab"
+                  :class="{ 'active show': isActive('portfolio') }">
+
+                  <div class="img-section">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                      <img src="@/assets/img/image1.png" alt="">
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 mask">
+                      <img src="@/assets/img/image2.png" alt="">
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  id="work"
+                  class="tab-pane"
+                  role="tabpanel"
+                  aria-labelledby="second-tab"
+                  :class="{ 'active show': isActive('work') }">
+
+                  <div class="work-details">
+                    <div class="work-details__head">
+                      <div class="work-content">
+                        <div class="w-100">
+                          <h6>Graphic&amp;<br />Web Designer</h6>
+                          <p class="pt-5">2018 - 2019</p>
+                        </div>
+                      <div class="w-100 list">
+                          <h6 class="sub-heading">Company "React"</h6>
+                          <ul class="list-unstyled">
+                            <li>
+                              - Turning creative concepts into finished websites.
+                            </li>
+                            <li>
+                              - Drawing up detailed website s pecifications.
+                            </li>
+                            <li>
+                              - Building websites that are easy to understand, navigate and use.
+                            </li>
+                            <li>
+                              - Designing sample page layouts.
+                            </li>
+                            <li>
+                              - Ensuring that the website complies with the company’s brand guidelines.
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                     <div class="work-details__head">
+                      <div class="work-content">
+                        <div class="w-100">
+                          <h6>Graphic&amp;<br />Web Designer</h6>
+                          <p class="pt-5">2018 - 2019</p>
+                        </div>
+                      <div class="w-100 list">
+                          <h6 class="sub-heading">Company "React"</h6>
+                          <ul class="list-unstyled">
+                            <li>
+                              - Turning creative concepts into finished websites.
+                            </li>
+                            <li>
+                              - Drawing up detailed website s pecifications.
+                            </li>
+                            <li>
+                              - Building websites that are easy to understand, navigate and use.
+                            </li>
+                            <li>
+                              - Designing sample page layouts.
+                            </li>
+                            <li>
+                              - Ensuring that the website complies with the company’s brand guidelines.
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="work-details__head">
+                      <div class="work-content">
+                        <div class="w-100">
+                          <h6>Graphic&amp;<br />Web Designer</h6>
+                          <p class="pt-5">2018 - 2019</p>
+                        </div>
+                      <div class="w-100 list">
+                          <h6 class="sub-heading">Company "React"</h6>
+                          <ul class="list-unstyled">
+                            <li>
+                              - Turning creative concepts into finished websites.
+                            </li>
+                            <li>
+                              - Drawing up detailed website s pecifications.
+                            </li>
+                            <li>
+                              - Building websites that are easy to understand, navigate and use.
+                            </li>
+                            <li>
+                              - Designing sample page layouts.
+                            </li>
+                            <li>
+                              - Ensuring that the website complies with the company’s brand guidelines.
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  id="education"
+                  class="tab-pane"
+                  role="tabpanel"
+                  aria-labelledby="third-tab"
+                  :class="{ 'active show': isActive('education') }">
+
+                  <div class="work-details">
+                    <div class="work-details__head">
+                      <div class="work-content">
+                      <div class="w-100">
+                        <h6>Master in <br />Web Developer</h6>
+                        <p class="pt-3">2015 - 2016</p>
+                      </div>
+                       <div class="w-100 list-2">
+                          <p>Envision Media, Inc., Santa Cruz, CA </p>
+                      </div>
+                      </div>
+                    </div>
+                   
+
+                    <div class="work-details__head">
+                      <div class="work-content">
+                      <div class="w-100">
+                        <h6>Master in <br />Web Developer</h6>
+                        <p class="pt-3">2018 - 2019</p>
+                      </div>
+                       <div class="w-100 list-2">
+                          <p>Massachusetts Institute of Technology (MIT) Boston, MA </p>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
         </div>
       </div>
     </div>
@@ -79,8 +273,20 @@ import TabComponent from '@/components/TabComponent'
 export default {
   components: {
     TabComponent
-  }
-  
+  },
+  data() {
+    return {
+      activeItem: 'portfolio'
+    }
+  },
+  methods: {
+    isActive (menuItem) {
+      return this.activeItem === menuItem;
+    },
+    setActive (menuItem) {
+      this.activeItem = menuItem;
+    },
+  } 
 }
 </script>
 
