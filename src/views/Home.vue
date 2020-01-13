@@ -244,11 +244,11 @@
                   <div class="work-details">
                     <div class="work-details__head">
                       <div class="work-content">
-                      <div class="w-100">
+                      <div  class="pl-4">
                         <h6>Master in <br />Web Developer</h6>
                         <p class="pt-3">2015 - 2016</p>
                       </div>
-                       <div class="w-100 list-2">
+                       <div>
                           <p>Envision Media, Inc., Santa Cruz, CA </p>
                       </div>
                       </div>
@@ -257,11 +257,11 @@
 
                     <div class="work-details__head">
                       <div class="work-content">
-                      <div class="w-100">
+                      <div  class="pl-4">
                         <h6>Master in <br />Web Developer</h6>
                         <p class="pt-3">2018 - 2019</p>
                       </div>
-                       <div class="w-100 list-2">
+                       <div>
                           <p>Massachusetts Institute of Technology (MIT) Boston, MA </p>
                       </div>
                       </div>
@@ -296,21 +296,14 @@ export default {
       return this.activeItem === menuItem;
     },
     setActive (menuItem, y) {
-      // eslint-disable-next-line no-console
-      console.log(y)
       this.activeItem = menuItem;
       this.currentLink = y
     },
     moveRight() {
-      const xArray = ['porfolio', 'work', 'education']
-      this.current = 0
-      if (this.currentLink != null) {
-        this.current = this.currentLink
-      }
-      this.setActive(xArray[this.current])
-      this.current ++
-        // eslint-disable-next-line no-console
-        console.log(this.current)
+      this.current++;
+    },
+    moveLeft() {
+      this.current--;
     }
   }
 }
