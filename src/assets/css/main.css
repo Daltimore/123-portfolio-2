@@ -370,7 +370,7 @@ and (max-device-width : 1024px)
   }
 
   #first-theme .mobile {
-    padding-left: 2.5rem;
+    padding-left: 2.5rem !important;
   }
 
 }
