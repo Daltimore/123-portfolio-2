@@ -50,6 +50,12 @@ body{
   grid-template-columns: auto auto;
 }
 
+#first-theme .audio-section .interv {
+  margin-left: -45px;
+  margin-top: 31px;
+  padding-left: 13px;
+}
+
 
 #first-theme .audio-section .interv span {
   background: #4D75E8;
@@ -60,29 +66,32 @@ body{
   display: flex;
   flex-direction: column;
   width: 44px;
+  height: 40px;
 }
 
 #first-theme .audio-section .interv img {
-  width: 23px;
+  width: 28px;
+  padding: 3px;
 }
 
 
 #first-theme .audio-section p {
   font-size: 14px;
-  line-height: 13px;
   color: #707070;
   transform: rotate(-90deg);
+  margin-top: 46px;
 }
 
 #first-theme .tap-section {
-  padding-left: 3rem;
-  padding-right: 4rem;
+  padding-left: 2.4rem;
+  padding-right: 1rem;
 }
 
 #first-theme .tap-section button {
   border: 1px solid #4D75E8;
   padding: 0.4rem 1rem;
-  color: rgba(77, 117, 232, 0.5)
+  color: rgba(77, 117, 232, 0.5);
+  height: 35px;
 }
 
 #first-theme .tap-section button:focus {
@@ -96,12 +105,18 @@ body{
 }
 
 #first-theme .tap-section .icon-container div {
-  padding: 2px 8px;
   border-radius: 10px;
   display: flex;
   align-items: center;
   box-shadow: 0 5px 15px 0 rgba(0,0,0,0.10);
   color: #4D75E8;
+  width: 49px;
+  height: 49px;
+  justify-content: center;
+}
+
+#first-theme .tap-section .icon-container .icon-size {
+  font-size: 19px;
 }
 
 #first-theme .hire-me button {
@@ -111,7 +126,8 @@ body{
   margin-top: 3rem;
   border-radius: 10px;
   background: #4D75E8;
-  color: rgba(255, 255, 255, 0.5)
+  color: rgba(255, 255, 255, 0.5);
+  height: 50px;
 }
 
 #first-theme .portfolio-section {

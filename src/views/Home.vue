@@ -44,19 +44,19 @@
               </div>
               <div class="col-lg-6 icon-container">
                 <div>
-                  <i class="fab fa-behance"></i>
+                  <i class="fab fa-behance icon-size"></i>
                 </div>
                 <div>
-                  <i class="fab fa-dribbble"></i>
+                  <i class="fab fa-dribbble icon-size"></i>
                 </div>
                 <div>
-                  <i class="fab fa-instagram"></i>
+                  <i class="fab fa-instagram icon-size"></i>
                 </div>
                 <div>
-                  <i class="fab fa-linkedin-in"></i>
+                  <i class="fab fa-linkedin-in icon-size"></i>
                 </div>
                 <div>
-                  <img src="@/assets/img/google.png" alt="">
+                  <img src="@/assets/img/google.svg" class="icon-size" alt="">
                 </div>
               </div>
             </div>
