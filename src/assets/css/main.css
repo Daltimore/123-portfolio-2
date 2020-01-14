@@ -1,8 +1,21 @@
-
 @font-face {
   font-family: 'Gotham Pro';
   src: url('../fonts/GothamPro.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+ }
+
+ @font-face {
+  font-family: 'Gotham Pro';
+  src: url('../fonts/GothamPro-Light.woff') format('woff');
   font-weight: 100;
+  font-style: normal;
+ }
+
+ @font-face {
+  font-family: 'Gotham Pro';
+  src: url('../fonts/GothamPro-Medium.woff') format('woff');
+  font-weight: 600;
   font-style: normal;
  }
 
@@ -92,6 +105,8 @@ body{
   padding: 0.4rem 1rem;
   color: rgba(77, 117, 232, 0.5);
   height: 35px;
+  margin-top: -15px;
+  margin-left: -9px;
 }
 
 #first-theme .tap-section button:focus {
@@ -197,7 +212,7 @@ body{
 }
 
 #first-theme .purple-section .work__section .img-section img {
-  width: 31rem;
+  width: 32rem;
 }
 
 
@@ -214,7 +229,14 @@ body{
   grid-template-columns: 1fr 2fr;
 }
 
+#first-theme .purple-section .work-details__head .work-content li,
+#first-theme .purple-section .work-details__head .work-content h6
+{
+  font-weight: 100;
+}
+
 #first-theme .sub-heading {
   color: rgb(255, 255, 255) !important;
   opacity: 2;
+  font-weight: 600 !important;
 }
