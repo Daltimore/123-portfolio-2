@@ -53,9 +53,9 @@ export default {
 }
 
 #social-tabs .vue-tabs .nav-tabs > li.active > a, .vue-tabs .nav-tabs > li.active > a:hover, .vue-tabs .nav-tabs > li.active > a:focus {
-  color: #555555;
-  background-color: #fff;
-  border-bottom: 2px solid #4D75E8 !important; 
+  color: #ffffff !important;
+  background-color: transparent;
+  border-bottom: 2px solid #ffffff !important; 
   border: none;
   cursor: default;
 }
@@ -65,7 +65,7 @@ export default {
   margin-top: 0;
   padding-left: 40px;
   list-style: none;
-  width: 95%;
+  width: 100%;
 }
 
 #social-tabs .tab-content {
@@ -121,4 +121,9 @@ export default {
   align-items: center;
   color: #ffffff;
 }
+
+.vue-tabs .tabs__link {
+    color: #ffffff;
+    opacity: 0.6;
+  }
 </style>
