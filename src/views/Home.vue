@@ -352,7 +352,7 @@
 
     <section class="tab-section__mobile">
       <div class="tab-containerr__mobile">
-      <div>
+      <div class="left">
         <img src="@/assets/img/left-mobile.svg" alt="">
       </div>
       <div>
@@ -404,7 +404,7 @@
             <h5 :class="{ active: isActive('education') }">Education</h5>
           </a>
         </div>
-      <div>
+      <div class="right">
         <img src="@/assets/img/right-mobile.svg" alt="">
       </div>
     </div>
