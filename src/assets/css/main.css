@@ -157,13 +157,16 @@ body{
 }
 
 #home .tab-containerr a .active{
-  color: #4D75E8;
-  opacity: 0.8;
+  color: #4D75E8 !important;
+  font-weight: 600;
 }
 
 #home .tab-containerr a{
   cursor: pointer;
   position: relative;
+  color: #4D75E8;
+  opacity: 0.43 !important;
+  font-weight: 100;
 }
 
 #home .tab-containerr a .active::before{
@@ -218,6 +221,11 @@ body{
 #home .purple-section .work-content {
   display: grid;
   grid-template-columns: 1fr 2fr;
+  padding: 2rem;
   color: #ffffff;
   font-weight: 100;
+}
+
+#home .work-details {
+  margin-left: 180px;
 }
