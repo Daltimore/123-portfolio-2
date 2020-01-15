@@ -34,6 +34,10 @@ body{
   width: 7rem;
 }
 
+#home .user-details-container .button-container {
+  padding-top: 16px;
+}
+
 #home .user-details-container .user-deets {
   width: 74%;
 }
@@ -44,17 +48,9 @@ body{
 
 #home .user-details-container .tap-to-chat {
   border: 1px solid #4D75E8;
-  border-radius: 5px;
   color: #4D75E8;
-  margin-top: 15px;
-  width: 111px;
-  position: relative;
-}
-
-#home .user-details-container .chat {
-  position: absolute;
-  top: 82%;
-  z-index: 1;
+  padding: 8px;
+  border-radius: 5px;
 }
 
 #home .icon-container {

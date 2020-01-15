@@ -10,11 +10,13 @@
             </div>
         </div>
         <div class="d-flex justify-content-between">
-          <div>
-            <!-- <img src="@/assets/img/chat.svg" alt="" class="chat"> -->
-            <button class="tap-to-chat">
-              Tap to chat
-            </button>
+          <div class="button-container">
+            <a href="#" class="tap-to-chat">
+              <img src="@/assets/img/chat.svg" alt="" class="chat">
+              <span class="text">
+                Tap to chat
+              </span>
+            </a>
           </div>
           <div class="icon-container">
             <div class="icon">
