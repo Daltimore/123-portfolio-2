@@ -78,13 +78,13 @@ export default {
   margin-top: 0;
   padding-left: 40px;
   list-style: none;
-  width: 95%;
+  width: 100%;
 }
 
 #social-tabs-mobile .tab-content {
   padding-top: 3rem;
-  padding-left: 10rem;
-  padding-right: 10rem;
+  padding-left: 7rem;
+  padding-right: 7rem;
 }
 
 #social-tabs-mobile .ai {
