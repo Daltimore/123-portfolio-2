@@ -1177,4 +1177,8 @@ body{
   #home .tab-section__mobile .purple-section .work-content .mobile {
     padding: 0 !important;
   }
+
+  #home .small__phone {
+    padding-left: 22px;
+  }
  }

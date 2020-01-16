@@ -357,7 +357,7 @@
                       <h6>Master in <br />Web Developer</h6>
                       <p class="pt-3">2015 - 2016</p>
                     </div>
-                      <div>
+                      <div class="small__phone">
                         <p>Envision Media, Inc., Santa Cruz, CA </p>
                     </div>
                     </div>
@@ -368,7 +368,7 @@
                     <div class="work-content">
                     <div  class="pl-4">
                       <h6>Master in <br />Web Developer</h6>
-                      <p class="pt-3">2018 - 2019</p>
+                      <p class="pt-3 small__phone">2018 - 2019</p>
                     </div>
                       <div>
                         <p>Massachusetts Institute of Technology (MIT) Boston, MA </p>
