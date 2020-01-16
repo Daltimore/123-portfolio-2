@@ -94,6 +94,42 @@
           <button class="hire">Hire me</button>
         </div>
       </div>
+      <div class="col-12 extra-small">
+        <div class="mobile-main__container">
+          <div class="d-flex">
+          <img src="@/assets/img/avatar.png" alt="" class="avatar">
+          <div class="user-details">
+            <h5>Conor</h5>
+            <p>Ui/Ux designer</p>
+            <div class="chat__mobile">
+            <img src="@/assets/img/chat.svg" alt="">
+          </div>
+          </div>
+        </div>
+        <div class="mobile_image">
+            <span>
+              <img src="@/assets/img/sound.svg" alt="">
+            </span>
+            <span>
+              <img src="@/assets/img/video-player.svg" alt="">
+            </span>
+          </div>
+        </div>
+        <div class="d-flex justify-content-between action-area__mobile">
+          <div>
+            <span>&#x24;10</span>
+            <p>Hourly Rate</p>
+          </div>
+          <div class="slant-line"></div>
+          <div>
+            <span>35 hours</span>
+             <p>Weekly Availability</p>
+          </div>
+          <div>
+            <button>Hire me</button>
+          </div>
+        </div>
+      </div>
       <div class="col-5 availability-container">
         <div class="d-flex">
           <p class="availability-p">Interview: </p>
@@ -451,7 +487,7 @@
                   <div class="work-details__head">
                     <div class="work-content">
                       <div class="pl-4 mobile">
-                        <h6>Graphic&amp;<br />Web Designer</h6>
+                        <h6>Graphic&amp; Web Designer</h6>
                         <p class="pt-5">2018 - 2019</p>
                       </div>
                     <div class="">
@@ -479,7 +515,7 @@
                     <div class="work-details__head">
                     <div class="work-content">
                       <div class="pl-4 mobile">
-                        <h6>Graphic&amp;<br />Web Designer</h6>
+                        <h6>Graphic&amp;web Designer</h6>
                         <p class="pt-5">2018 - 2019</p>
                       </div>
                     <div>
@@ -507,7 +543,7 @@
                   <div class="work-details__head">
                     <div class="work-content">
                       <div class="pl-4 mobile">
-                        <h6>Graphic&amp;<br />Web Designer</h6>
+                        <h6>Graphic&amp; Web Designer</h6>
                         <p class="pt-5">2018 - 2019</p>
                       </div>
                     <div>
@@ -546,7 +582,7 @@
                   <div class="work-details__head">
                     <div class="work-content">
                     <div  class="pl-4">
-                      <h6>Master in <br />Web Developer</h6>
+                      <h6>Master in Web Developer</h6>
                       <p class="pt-3">2015 - 2016</p>
                     </div>
                       <div>

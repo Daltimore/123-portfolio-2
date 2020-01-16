@@ -20,15 +20,15 @@
       </v-tab>
 
       <v-tab title="Frameworks/Databases">
-        Second tab content
+        
       </v-tab>
 
       <v-tab title="Digital skills">
-        Third tab content
+        
       </v-tab>
 
       <v-tab title="Software">
-        Fourth tab content
+        
       </v-tab>
     </vue-tabs>
   </div>
@@ -126,4 +126,12 @@ export default {
     color: #ffffff;
     opacity: 0.6;
   }
+
+  @media (min-width: 320px) and (max-width: 370px) {
+    #social-tabs .tab-content {
+    padding-top: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
 </style>
