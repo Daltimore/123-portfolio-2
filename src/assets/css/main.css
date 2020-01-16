@@ -101,6 +101,7 @@ body{
 
 #home .availability-container .purple-area img {
   width: 23px;
+  object-fit: contain;
 }
 
 #home .availability-container .action-area {
