@@ -1027,8 +1027,8 @@ body{
 
 
   #home .img-section img {
-    margin: 10px;
-    width: 93%;
+    margin: 11px;
+    width: 96%;
   }
 
   #home .action-area__mobile {
@@ -1174,6 +1174,7 @@ body{
     flex-direction: column;
     color: #ffffff;
     font-weight: 100;
+    font-size: 19px;
   }
 
   #home .tab-section__mobile .purple-section .work-content .small-p{
@@ -1182,6 +1183,15 @@ body{
 
   #home .tab-section__mobile .purple-section .work-content .mobile {
     padding: 0 !important;
+    font-size: 19px;
+  }
+
+  #home .tab-section__mobile .purple-section .work-content .sub-heading {
+    font-size: 22px;
+  }
+
+  #home .tab-section__mobile .purple-section .work-content .big-text {
+    font-size: 20px;
   }
 
   #home .small__phone {

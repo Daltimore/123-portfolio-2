@@ -142,6 +142,20 @@ export default {
   #social-tabs .vue-tabs .nav {
     padding-left: 0px;
   }
+
+  #social-tabs .vue-tabs .nav {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 78px;
+    list-style: none;
+    width: 100%;
+  }
+
+  #social-tabs .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-y: scroll;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {

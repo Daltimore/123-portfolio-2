@@ -487,7 +487,7 @@
                   <div class="work-details__head">
                     <div class="work-content">
                       <div class="pl-4 mobile">
-                        <h6>Graphic&amp; Web Designer</h6>
+                        <h6 class="big-text">Graphic &amp; Web Designer</h6>
                         <p class="pt-5">2018 - 2019</p>
                       </div>
                     <div class="">
@@ -515,7 +515,7 @@
                     <div class="work-details__head">
                     <div class="work-content">
                       <div class="pl-4 mobile">
-                        <h6>Graphic&amp;web Designer</h6>
+                        <h6 class="big-text">Graphic &amp; web Designer</h6>
                         <p class="pt-5">2018 - 2019</p>
                       </div>
                     <div>
@@ -543,7 +543,7 @@
                   <div class="work-details__head">
                     <div class="work-content">
                       <div class="pl-4 mobile">
-                        <h6>Graphic&amp; Web Designer</h6>
+                        <h6 class="big-text">Graphic &amp; Web Designer</h6>
                         <p class="pt-5">2018 - 2019</p>
                       </div>
                     <div>
@@ -581,7 +581,7 @@
                 <div class="work-details">
                   <div class="work-details__head">
                     <div class="work-content">
-                    <div  class="pl-4">
+                    <div class="pl-4">
                       <h6>Master in Web Developer</h6>
                       <p class="pt-3">2015 - 2016</p>
                     </div>
