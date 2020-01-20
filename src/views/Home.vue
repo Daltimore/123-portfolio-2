@@ -586,7 +586,7 @@
                       <p class="pt-3">2015 - 2016</p>
                     </div>
                       <div>
-                        <p>Envision Media, Inc., Santa Cruz, CA </p>
+                        <p class="small-p">Envision Media, Inc., Santa Cruz, CA </p>
                     </div>
                     </div>
                   </div>
@@ -599,7 +599,7 @@
                       <p class="pt-3">2018 - 2019</p>
                     </div>
                       <div>
-                        <p>Massachusetts Institute of Technology (MIT) Boston, MA </p>
+                        <p class="small-p">Massachusetts Institute of Technology (MIT) Boston, MA </p>
                     </div>
                     </div>
                   </div>

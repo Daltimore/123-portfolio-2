@@ -135,8 +135,8 @@ export default {
 @media (min-width: 320px) and (max-width: 370px) {
   #social-tabs .tab-content {
     padding-top: 3rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
 }
 

@@ -852,7 +852,7 @@ body{
     background: #4D75E8;
     color: #ffffff;
     border: none;
-    padding: 10px 19px;
+    padding: 14px 47px;
     border-radius: 12px;
   }
 }
@@ -1129,7 +1129,7 @@ body{
  }
 
 
- @media (min-width: 320px) and (max-width: 370px) {
+ @media (min-width: 320px) and (max-width: 390px) {
   #home .action-area__mobile button {
     background: #4D75E8;
     color: #ffffff;
@@ -1173,6 +1173,10 @@ body{
     flex-direction: column;
     color: #ffffff;
     font-weight: 100;
+  }
+
+  #home .tab-section__mobile .purple-section .work-content .small-p{
+    padding-left: 1.3rem;
   }
 
   #home .tab-section__mobile .purple-section .work-content .mobile {
