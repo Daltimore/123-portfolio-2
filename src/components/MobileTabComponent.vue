@@ -150,12 +150,6 @@ export default {
     list-style: none;
     width: 100%;
   }
-
-  #social-tabs .nav {
-    display: flex;
-    flex-wrap: nowrap;
-    overflow-y: scroll;
-  }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -181,4 +175,12 @@ export default {
     padding-left: 0px;
   }
 }
+</style>
+
+<style>
+.nav {
+  display: flex;
+  flex-wrap: nowrap !important;
+  overflow-y: scroll !important;
+  }
 </style>
