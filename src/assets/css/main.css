@@ -1092,7 +1092,7 @@ body{
   #home .extra-small .mobile-main__container .mobile_image {
     display: flex;
     flex-direction: column;
-    margin-top: 10px;
+    margin-top: 24px;
   }
 
   #home .extra-small .mobile-main__container .mobile_image span {
@@ -1139,8 +1139,9 @@ body{
   }
 
   #home .extra-small .mobile-main__container .avatar {
-    width: 4rem;
+    width: 7.6rem;
     height: 8rem;
+    margin-top: 17px;
     object-fit: contain;
   }
 

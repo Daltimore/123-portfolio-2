@@ -134,9 +134,13 @@ export default {
 
 @media (min-width: 320px) and (max-width: 370px) {
   #social-tabs .tab-content {
-    padding-top: 3rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-top: 3rem !important;
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
+  }
+
+  #social-tabs .vue-tabs .nav {
+    padding-left: 0px;
   }
 }
 
@@ -149,14 +153,18 @@ export default {
   }
 
   #social-tabs .tab-content {
-    padding-top: 3rem;
-    padding-left: 5rem;
-    padding-right: 4rem;
+    padding-top: 3rem !important;
+    padding-left: 5rem !important;
+    padding-right: 4rem !important;
   }
 
   #social-tabs .vue-tabs .nav {
     overflow-y: scroll;
     overflow-x: scroll;
-}
+  }
+
+  #social-tabs .vue-tabs .nav {
+    padding-left: 0px;
+  }
 }
 </style>
